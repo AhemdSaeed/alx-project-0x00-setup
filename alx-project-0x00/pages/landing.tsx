@@ -4,15 +4,22 @@ import Card from "@/components/Card";
 export default function LandingPage() {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
-           <h1 className=" text-xl font-extralight">Landing Page</h1>
+      <h1 className=" text-xl font-extralight">Landing Page</h1>
       <Card />
       <Card />
       <Card />
-       <div className="flex gap-4 mt-6">
-        <Button title="Small Rounded" styles="text-sm rounded-sm" />
-        <Button title="Medium Rounded" styles="text-base rounded-md" />
-        <Button title="Large Rounded Full" styles="text-lg rounded-full" />
-      </div>
+      <Button
+        title="Small Button"
+        styles="rounded-sm bg-blue-500 px-4 py-2 text-white"
+      />
+      <Button
+        title="Medium Button"
+        styles="rounded-md bg-green-500 px-6 py-3 text-white"
+      />
+      <Button
+        title="Large Button"
+        styles="rounded-full bg-red-500 px-8 py-4 text-white"
+      />
     </div>
   );
 }
