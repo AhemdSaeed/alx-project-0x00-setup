@@ -8,18 +8,16 @@ export default function LandingPage() {
       <Card />
       <Card />
       <Card />
-  <Button
-        title="Small Button"
-        styles="rounded-sm bg-blue-500 px-4 py-2"
-      />
+      <Button title="Small Button" styles="rounded-sm bg-blue-500 px-4 py-2" />
       <Button
         title="Medium Button"
         styles="rounded-md bg-green-500 px-6 py-3"
       />
       <Button
-        title="Large Button"
-        styles="rounded-full bg-red-500 px-8 py-4"
+        title="Rounded-lg Button"
+        styles="rounded-lg bg-purple-500 px-8 py-4 text-white"
       />
+      <Button title="Large Button" styles="rounded-full bg-red-500 px-8 py-4" />
     </div>
   );
 }
