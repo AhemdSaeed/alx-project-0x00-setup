@@ -18,7 +18,7 @@ export default function LandingPage() {
       />
       <Button
         title="Large Button"
-        styles="rounded-full bg-red-500 px-8 py-4"
+        styles="rounded-lg bg-red-500 px-8 py-4"
       />
     </div>
   );
