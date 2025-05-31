@@ -13,10 +13,8 @@ export default function LandingPage() {
         title="Medium Button"
         styles="rounded-md bg-green-500 px-6 py-3"
       />
-      <Button
-        title="Rounded-lg Button"
-        styles="rounded-lg bg-purple-500 px-8 py-4 text-white"
-      />
+  
+      <Button title="Large Button" styles="rounded-full bg-red-500 px-8 py-4" />
     </div>
   );
 }
